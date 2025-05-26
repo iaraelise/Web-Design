@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05 - Background/Responsividade</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>TADS</h1>
+
+
+    <!-- A tag picture trabalha com responsividade. Será aplicada onde for desejado alteração de imagem, conforme o tamanho do dispositivo. -->
+    <!-- Há imagens que servem como decorativas. Isso quer dizer que caso a imagem saia do site, o usário continuará entendendo o conteúdo. -->
+    <!-- Obrigatoriamente, dentro da tag picture é necessário ter uma tag img, antes disso deve haver a tag source e as imagens devem ir do maior pra o menor.
+         A imagem irá se adequar conforme o tamanho da tela do usuário. -->
+    <picture>
+        <source srcset="Imagens/destaque-desktop.jpg" media=" (min-width:1500px)">
+        <source srcset="Imagens/destaque-tablet.jpg" media=" (min-width:1400px)">
+        <img src="Imagens/destaque-mobile.jpg" alt="">
+    </picture>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro natus ducimus blanditiis tenetur sunt pariatur
+        possimus quisquam aspernatur praesentium? Quia dolores recusandae possimus nobis consequuntur animi, cum
+        corporis earum ipsa!</p>
+
+    <p>Modi consequatur itaque iure ea illo perferendis velit, sit odit aperiam vitae facilis cum ipsa maiores omnis
+        possimus officiis amet sint nam perspiciatis explicabo vero earum! Repudiandae suscipit corrupti fugit!</p>
+
+    <p>Quo placeat omnis officiis laboriosam facilis eligendi consectetur exercitationem quasi molestias quia temporibus
+        voluptatibus numquam iusto molestiae maxime, tempore sequi nisi deserunt doloribus fuga voluptates et quisquam
+        rem. Sapiente, quidem?</p>
+
+    <p>Nesciunt perferendis blanditiis voluptatem autem qui, pariatur nisi mollitia exercitationem placeat consequatur
+        doloribus ullam ex obcaecati eum perspiciatis totam odio illo iste tempora eius nostrum? Inventore ut
+        consectetur reprehenderit atque.</p>
+
+    <p>Ducimus amet quisquam atque dicta, vel eius! At adipisci quae necessitatibus vel deserunt, ullam dolorum placeat
+        natus praesentium repudiandae eveniet eligendi a hic. Neque voluptates dicta vero accusantium, deleniti aperiam?
+    </p>
+
+
+
+</body>
+
+</html>

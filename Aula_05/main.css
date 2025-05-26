@@ -1,0 +1,17 @@
+body {
+    /*background-image: url(Imagens/bg.png);*/
+    background-image: url(Imagens/diatinf.bg.png), url(Imagens/bg.png);
+    background-repeat: repeat-y, repeat;
+    background-position: center, center;
+}
+
+/* background-image: Imagem decorativa. Por padrão, ela irá se repetir horizontalmente e verticalmente, porém é possível configurar seu comportamento. */
+/* background-repeat: Configura a maneira da repetição. */
+/* background-position: Organiza a posição da imagem. */
+/* background-size: cover ---> Define a largura da imagem coforme a largura do dispositivo. */
+
+h1 {
+    background-image: linear-gradient(100deg, rgb(106, 187, 224), rgb(75, 129, 211));
+}
+
+/* Dentro dos atributos, é possível definir o ângulo do gradiente. */
