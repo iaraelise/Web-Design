@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #F9F1DC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+}
+
+.imagem {
+    margin: 20px auto;
+  }
+  
+  .imagemDestaque {
+    width: 50%;
+    border-top: 2px solid #F5BD26;
+    border-bottom: 2px solid #F5BD26;
+    border-radius: 4px;
+  }
+
+  section ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    list-style-type: none;
+
+  }
