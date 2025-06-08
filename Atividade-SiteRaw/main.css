@@ -5,17 +5,13 @@
 }
 
 body {
-    background-color: #F9F1DC;
+    background-color: #faf8f5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
     text-align: center;
 }
-
-.imagem {
-    margin: 20px auto;
-  }
   
   .imagemDestaque {
     width: 50%;
@@ -25,11 +21,40 @@ header {
   }
 
   section ul {
+    padding-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    gap: 2px;
     width: 50%;
     justify-content: center;
     margin: 0 auto;
     list-style-type: none;
 
   }
+
+  h2 {
+    margin-top: 25px;
+  }
+
+  hr {
+    border: none;
+    height: 2px;
+    background-color: #f3c654; 
+    width: 80%;                
+    margin: 30px auto;         
+  }
+  
+
+  p {
+    width: 30%;                
+    margin: 40px auto;         
+    font-size: 16px;           
+  }
+  
+  footer {
+    background-color: white; 
+    padding: 20px;           
+    font-style: italic;        
+    font-size: 15px;           
+  }
+  
