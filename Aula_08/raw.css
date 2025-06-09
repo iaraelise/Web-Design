@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li.atual {
+    background-color: bisque;
+}
+
+.atual {
+    background-color: aqua;
+}
+
+li.atual a {
+    color: darkcyan;
+}
+table {
+    border-collapse: collapse;
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 1em;
+}
+
+tr:nth-child(odd) {
+    background-color: aliceblue;
+}
