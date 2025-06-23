@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: #FFF0F5;
+}
+
+nav {
+    background-color: #DB7093;
+}
+
+#logoSU {
+     width: 10%;
+    height: auto;
+}
+
+ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    list-style-type: none;
+}
