@@ -13,7 +13,7 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('fontes/Inter-Regular.otf') format(woff2);
+    src: url('fontes/Inter-Regular.otf') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -57,6 +57,7 @@ ol {
     display: flex;
     gap: 15%;
     justify-content: center;
+    letter-spacing: 1px;
     list-style-type: none;
     margin: 0 auto;
     padding-bottom: 10px;
@@ -66,10 +67,68 @@ ol {
     /* display: Tranforma o elemento em um container flexível */
     /* gap: Cria um espaçamento entre os itens da lista. */
     /* justify-content: Centraliza os itens da lista. */
+    /* letter-spacing: Define a distância entre as letras dos elementos da lista. */
     /* list-style-type: Remove os marcadores padrão da lista. */
     /* margin: Centraliza o elemento horizontalmente dentro do pai. */
     /* padding-bottom: Cria um espaçamento interno na parte inferior da lista. */
     /* width: Define que a lista ocupa 50% da largura do elemento pai. */
+}
+
+/* MAIN: Conteúdo principal */
+
+.tituloPrincipal {
+    color: #355C7D;
+    font-family: 'Crewniverse', crewniverse;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 480px;
+
+    /* letter-spacing: Define a distância entre as letras do título. */
+    /* line-height: Define o espaçamento entre as linhas do título. */
+
+}
+
+.descricaoSU {
+    color: #355C7D;
+    font-family: 'Quenda', quenda;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+}
+
+.resumoSU {
+    color: #355C7D;
+    font-family: 'Quenda', quenda;
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+}
+
+/* .descricaoSU e .resumoSU */
+/* color: Define a cor do texto. */
+/* font-family: Define a fonte do texto. */
+/* margin: Centraliza o texto horizontalmente dentro do main. */
+/* text-align: Centraliza o texto dentro do main. */
+/* width: Define que o texto ocupe 30% da largura do main. */
+
+
+.imagemPI {
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    height: auto;
+    margin-top: 30px;
+    width: 30%;
+
+    /* border-radius: Arredonda os cantos da iamgem. */
+    /* box-shadow: Adiciona uma sombra com deslocamento e opacidade. */
+    /* height: Faz a altura se ajustar automaticamente ao conteúdo. */
+    /* margin-top: Cria um espaçamento entre a imagem e o que estiver acima. */
+    /* width: Define que a imagem ocupe 30% da largura do main. */
 }
 
 /* FOOTER */
@@ -93,8 +152,8 @@ footer {
 }
 
 .textoFooter {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     /* padding-top: Cria um espaçamento interno na parte superior do rodapé. */
     /* padding-bottom: Cria um espaçamento interno na parte inferior do rodapé. */
