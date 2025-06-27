@@ -4,25 +4,98 @@
     text-align: center;
 }
 
+@font-face {
+    font-family: 'Crewniverse';
+    src: url('fontes/crewniverse_font.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fontes/Inter-Regular.otf') format(woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quenda';
+    src: url('fontes/Quenda-Medium.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     background-color: #FFF0F5;
 }
 
+/* HEADER */
+
 nav {
     background-color: #DB7093;
+    font-family: 'Crewniverse', crewniverse;
+
+    /* background-color: Define a cor do background da nav bar. */
+    /* font-family: Define a fonte da nav bar. */
 }
 
 #logoSU {
-     width: 10%;
     height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+
+    /* height: Faz a altura da logo se ajustar automaticamente à largura, mantendo a proporção original */
+    /* margin-top: Cria um espaçamento entre a logo e o que estiver acima. */
+    /* margin-bottom: Cria um espaçamento entre a logo e o que estiver embaixo dela. */
+    /* width: Define a largura fixa da logo (em pixels.) */
 }
 
 ol {
+    color: white;
     display: flex;
-    flex-wrap: wrap;
-    gap: 20%;
-    width: 50%;
+    gap: 15%;
     justify-content: center;
-    margin: 0 auto;
     list-style-type: none;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 50%;
+
+    /* color: Define a cor do texto da lista. */
+    /* display: Tranforma o elemento em um container flexível */
+    /* gap: Cria um espaçamento entre os itens da lista. */
+    /* justify-content: Centraliza os itens da lista. */
+    /* list-style-type: Remove os marcadores padrão da lista. */
+    /* margin: Centraliza o elemento horizontalmente dentro do pai. */
+    /* padding-bottom: Cria um espaçamento interno na parte inferior da lista. */
+    /* width: Define que a lista ocupa 50% da largura do elemento pai. */
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #DB7093;
+    bottom: 0;
+    color: white;
+    font-family: 'Inter', inter;
+    font-size: small;
+    position: fixed;
+    width: 100%;
+
+    /* background-color: Define a cor do background do rodapé. */
+    /* bottom: Posiciona o elemento na parte inferior da tela.. */
+    /* color: Define a cor do texto do rodapé. */
+    /* font-family: Define a fonte do rodapé. */
+    /* font-size: Define o tamanho da fonte do rodapé. */
+    /* position: Fixa o elemento na tela. */
+    /* width: Define que o rodapé ocupa 100% do tamanho da tela. */
+}
+
+.textoFooter {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    /* padding-top: Cria um espaçamento interno na parte superior do rodapé. */
+    /* padding-bottom: Cria um espaçamento interno na parte inferior do rodapé. */
 }
