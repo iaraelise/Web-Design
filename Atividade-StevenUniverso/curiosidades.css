@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Crewniverse';
+    src: url('fontes/crewniverse_font.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fontes/Inter-Regular.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quenda';
+    src: url('fontes/Quenda-Medium.otf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: #FFF0F5;
+}
+
+/* HEADER */
+
+nav {
+    background-color: #DB7093;
+    font-family: 'Crewniverse', crewniverse;
+}
+
+#logoSU {
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+ol {
+    color: white;
+    display: flex;
+    gap: 15%;
+    justify-content: center;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+/* MAIN */
+
+.cardRebecca {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.rebeccaSugar {
+    height: auto;
+    width: 20%;
+    
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #DB7093;
+    bottom: 0;
+    color: white;
+    font-family: 'Inter', inter;
+    font-size: small;
+    position: fixed;
+    width: 100%;
+}
+
+.textoFooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
