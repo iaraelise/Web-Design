@@ -59,19 +59,51 @@ ol {
 /* MAIN */
 
 .cardRebecca {
+    align-items: center;
     background-color: white;
     border-radius: 20px;
     display: flex;
+    height: auto;
+    justify-content: space-between;
     margin: 0 auto;
     margin-top: 50px;
-    width: 80%;
+    padding: 20px 0px;
+    width: 40%;
+    max-width: 800px; 
+
 }
 
-.rebeccaSugar {
-    height: auto;
-    width: 20%;
-    
+figure {
+    margin: 0;
+    width: 30%;
 }
+
+figure img {
+    border-radius: 20px;
+    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.30);
+    height: auto;
+    width: 70%;
+}
+
+.descricaoRebecca {
+    margin-right: 40px;
+    width: 70%;
+}
+
+.descricaoRebecca h2 {
+    color: #355C7D;
+    font-family: 'Crewniverse', crewniverse;
+    font-size: medium;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.descricaoRebecca p {
+    color: #355C7D;
+    font-family: 'Quenda', quenda;
+    font-size: small;
+}
+
 
 /* FOOTER */
 
