@@ -56,20 +56,25 @@ ol {
     width: 50%;
 }
 
-/* MAIN */
+/* MAIN - CARDS DE CURIOSIDADES */
 
-.cardRebecca {
+.card:first-of-type {
+    margin-top: 50px;
+}
+
+.card {
     align-items: center;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.30);
     display: flex;
     height: auto;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 20px 0px;
     width: 40%;
-    max-width: 800px; 
+    max-width: 800px;
 
 }
 
@@ -80,17 +85,17 @@ figure {
 
 figure img {
     border-radius: 20px;
-    box-shadow: 5px 2px 5px rgba(0, 0, 0, 0.30);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.30);
     height: auto;
     width: 70%;
 }
 
-.descricaoRebecca {
+.descricao {
     margin-right: 40px;
     width: 70%;
 }
 
-.descricaoRebecca h2 {
+.descricao h2 {
     color: #355C7D;
     font-family: 'Crewniverse', crewniverse;
     font-size: medium;
@@ -98,12 +103,11 @@ figure img {
     margin-bottom: 20px;
 }
 
-.descricaoRebecca p {
+.descricao p {
     color: #355C7D;
     font-family: 'Quenda', quenda;
     font-size: small;
 }
-
 
 /* FOOTER */
 
