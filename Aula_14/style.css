@@ -35,14 +35,11 @@ section div {
     border: 1px solid #ddd;
     border-radius: 7px;
     box-shadow: 0 0 10px #ddd;
+    text-align: center;
 
     /* como eu quero 4 cards dentro do container */
 }
 
 img {
     width: 200px;
-}
-
-figure {
-    text-align: center;
 }
