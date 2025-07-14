@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 80rem;
+
+    /*  rem: dinamicos de responsasividade. o em ver o tamanhodo texto do elemento anterior. o rem é mais estável e respnsivo.*/
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+}
+
+section h2 {
+    background-color: cadetblue;
+    flex-basis: 100%;
+
+/* Faz o subtitulo ocpuar 100% da tela */
+/* largura de um item do container flex */
+}
+
+section div {
+    flex-basis: 22%;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    box-shadow: 0 0 10px #ddd;
+
+    /* como eu quero 4 cards dentro do container */
+}
+
+img {
+    width: 200px;
+}
+
+figure {
+    text-align: center;
+}
