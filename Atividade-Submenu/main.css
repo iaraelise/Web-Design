@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: aliceblue;
+}
+
+ul {
+    display: flex;
+}
+
+.menu {
+    position: relative;
+}
+
+.submenu {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.menu:hover .submenu {
+    visibility: visible;
+}
+
+.submenu>li:hover {
+    visibility: visible;
+}
+
+
+
+li {
+    padding: 2rem;
+    max-width: 250px;
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(154, 188, 238);
+    color: white;
+}
+
+a {
+    color: white;
+}
